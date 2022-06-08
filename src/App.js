@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './components/nav';
 import Home from './components/Home';
 import About from './components/about';
+import TechStack from './components/TechStack';
 // import { useSpring, config, animated } from "react-spring";
 // import { useState } from "react";
 // const url = (name, wrap = true) =>
@@ -23,6 +24,16 @@ function App() {
    const myStyle = {
       backgroundImage:
          "url('https://as2.ftcdn.net/v2/jpg/03/15/25/45/1000_F_315254526_BguE2UPiesByZ4CA7HQoMAASbWeltDIv.jpg')",
+      minheight: '100vh',
+      // marginTop:'-70px',
+      // fontSize:'50px',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+   };
+
+   const myStyle2 = {
+      backgroundImage:
+         "url('https://img.freepik.com/free-photo/night-star-sky-background-copy-spec-design-texture_10541-539.jpg?w=1800')",
       minheight: '100vh',
       // marginTop:'-70px',
       // fontSize:'50px',
@@ -53,6 +64,9 @@ function App() {
          </section>
          <section>
             <About/>
+         </section>
+         <section style={myStyle2}>
+            <TechStack/>
          </section>
       </>
    );

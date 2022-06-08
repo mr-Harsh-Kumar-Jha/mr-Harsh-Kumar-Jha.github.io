@@ -1,35 +1,12 @@
 import React , {useState} from "react";
 import HorizontalTimeline from "react-horizontal-timeline";
-// import TimelineElement from "./timelineElements";
+import TimelineElement from "./timelineElements";
 const VALUES = [
    '2022-03-01',
+   '2021-10-01',
    '2021-08-01',
    '2019-05-01',
-];
 
-const TimelineElement = [
-   {
-      id: 1,
-      company: "DevKraft",
-      position: "Web Developer",
-      location: "Pune",
-      date: "March 2022 - Present"
-
-   },
-   {
-      id: 2,
-      company: "Abhishek Vidyalayam",
-      position: "Class: 11th - 12th",
-      location: "Pune",
-      date: "August 2019 - August 2021"
-   },
-   {
-      id: 3,
-      company: "Dr. D.Y. Patil institute of Technology",
-      position: "Class: 10th",
-      location: "Pune",
-      date: "August 2018 - August 2019"
-   }
 ];
 
 const Timeline = () => {
@@ -51,9 +28,9 @@ const[value,setValue] = useState(0);
         </div>
         <div className='text-center'>
           {/* any arbitrary component can go here */}
-            <div className="container flex-column">
+            <div className="container flex-column left-0">
               <div className="timeline-heading"><h1>{TimelineElement[value].company}</h1></div>
-              <div> <h4>Position: {TimelineElement[value].position}</h4></div>
+              <div className="left-0"> <h4>Position: {TimelineElement[value].position}</h4></div>
               <div>  <span>Location: {TimelineElement[value].location} </span></div>
               <div> <span>Date: {TimelineElement[value].date}</span></div>
             </div>

@@ -76,6 +76,7 @@ section{
 .container{
    height:80%;
    text-align: center;
+   overflow:hidden;
 }
 /* .home-cont{
    margin-top: 150px;
@@ -145,6 +146,27 @@ section{
 /* .present{
    width:0px !important;
 } */
+.font-weight-bold-techstack{
+   font-size: 50px;
+            background: linear-gradient(to top,
+                    rgb(239, 243, 7),
+                    rgb(119, 233, 243),
+                    rgb(193, 66, 240),
+                    /* rgb(95, 246, 95), */
+                    rgb(2, 104, 24),
+                    rgb(176, 116, 4));
+                    /* rgb(249, 88, 88)); */
+            -webkit-background-clip: text;
+            color: transparent;
+
+}
+.techstack-maincontent1{
+   margin-top: 50px;
+}
+.col{
+   text-align: left;
+}
+
 
 
 
