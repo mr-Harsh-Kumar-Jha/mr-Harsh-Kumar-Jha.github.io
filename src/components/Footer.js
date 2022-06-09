@@ -60,10 +60,10 @@ const Footer = () => {
                      journey.</p>
                </div>
                <span className="btn-sm"><a
-                     href="/">Hire
+                     href="\">Hire
                      Me</a></span>
                <span className="btn-sm"><a
-                     href="/">Contact
+                     href="\">Contact
                      Me</a></span>
                <div className="subscribe">
                   <p>You can subscribe to my
@@ -73,7 +73,7 @@ const Footer = () => {
                      that is trending in Market.
                   </p>
                   <span className="btn-sm sub"><a
-                        href="/">Subscribe</a></span>
+                        href="\">Subscribe</a></span>
                </div>
             </div>
          </div>

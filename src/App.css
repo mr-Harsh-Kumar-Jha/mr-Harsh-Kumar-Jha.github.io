@@ -39,10 +39,6 @@
   }
 }
 
-/* .navbar{
-   position:fixed;
-} */
-
 .navbar-brand{
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    font-size: larger;
@@ -64,8 +60,6 @@ section{
    width:100vw;
     display: flex;
     color:rgb(155, 114, 244);
-   /* justify-content: center; */
-   /* align-items: center; 196, 175, 240 */
 }
 .brand{
    font-size: 3rem;
@@ -76,17 +70,11 @@ section{
 .container{
    height:80%;
    text-align: center;
-   /* overflow:hidden; */
-}
-/* .home-cont{
-   margin-top: 150px;
-} */
 
-/* .containerSVG{
-   text-align: center;
-   display:flex;
-   justify-content: center;
-} */
+}
+
+
+
 .start-about{
    margin-top:50px;
 }
@@ -95,11 +83,7 @@ section{
    flex-direction: row;
    margin-top: 50px;
 }
-/* .box-Heading h2{
-   font-size: 80px;
-   font-family: Arial, Helvetica, sans-serif;
 
-} */
 .font-weight-bold{
    font-size: 50px;
             background: linear-gradient(to left,
@@ -143,12 +127,9 @@ section{
 .events{
    top: 50% !important;;
 }
-/* .present{
-   width:0px !important;
-} */
+
 .tech-stack-heading{
    display:flex;
-   /* width:70%; */
    justify-content: center;
 }
 .font-weight-bold-techstack{
@@ -157,20 +138,13 @@ section{
                     rgb(239, 243, 7),
                     rgb(119, 233, 243),
                     rgb(193, 66, 240),
-                    /* rgb(95, 246, 95), */
                     rgb(2, 104, 24),
                     rgb(176, 116, 4));
-                    /* rgb(249, 88, 88)); */
             -webkit-background-clip: text;
             color: transparent;
      border: 2px solid whitesmoke;
      border-radius: 50px;
-   /*  display:flex;
-     align-items: center;
-     justify-content: center;
-     align-content: center;
-     text-align: center;
-     width:390px; */
+
      width:30%;
 
 }
@@ -187,26 +161,25 @@ section{
 
 
 
-* -----------------------------Footer design starts---------------------------- */
+/* -----------------------------Footer design starts---------------------------- */
  .container-1{
     width:100vw;
-    /* margin-top:calc(10vh); */
+
     background-color:rgb(245, 245, 245,0.5);
     display:flex;
     flex-direction: column;
     padding:20px;
     justify-content: center;
     align-items:center;
-    /* position:relative; */
+
     z-index:-1;
  }
  .local{
     display:flex;
-    /* justify-content: space-between;
-    align-items:space-between; */
+
     flex-direction:column;
     width:100%;
-    /* padding:80px; */
+
  }
  .social_media{
     display:flex;
@@ -224,8 +197,7 @@ section{
     display:flex;
     width:100%;
     height:100px;
-    /* color:white; */
-    /* background-color: grey; */
+
     align-items:center;
     justify-content: center;
     margin-bottom:20px;
@@ -240,9 +212,9 @@ section{
    cursor:pointer;
 }
 .text2 a i:hover{
-    /* width:80px; */
+
     font-size: 70px !important;
-    /* height:80px; */
+
  }
  .personal_info{
     border:3px solid black;
@@ -260,8 +232,7 @@ section{
    align-items: center;
    height:100%;
    width:100%;
-   /* border-radius:60px; */
-   /* position:relative; */
+
    padding-left:30px;
    padding-right:30px;
    margin-top:20px;
@@ -272,15 +243,15 @@ section{
  }
  .info-a p{
     flex-wrap:wrap;
-    /* font-family: 'Rubik Beastly', cursive; */
+
     font-weight:bold;
     font-family: 'Ubuntu Mono', monospace;
-    /* padding-left:10px; */
+
 
  }
  .btn-sm{
     margin-top:10px;
-    /* padding-right:10px; */
+
     background-color:  rgb(91, 33, 182);
     padding:10px;
     border-radius:10px;
@@ -290,16 +261,13 @@ section{
      color:white;
      text-decoration: none;
      font-weight: bolder;
-     /* height:100%;
-     width:100%; */
+
  }
   .btn-sm:hover ,.btn-sm:hover a{
     background-color: rgb(249, 250, 187);
     color:rgb(91, 33, 182);
  }
- /* .btn-sm:hover a{
-    color:rgb(91, 33, 182);
- } */
+
  .subscribe{
     display:flex;
     flex-direction: column;
@@ -314,7 +282,7 @@ section{
  }
  .sub{
     width:40%;
-    /* height:100%; */
+
     padding:20px;
     border-radius:30px;
     background-color: red;
@@ -334,7 +302,7 @@ section{
 .address span{
    font-size: xx-large;
    color:rgb(110, 53, 202);
-   /* font-weight:bold; */
+
 }
 .address p{
    font-size:x-large;
@@ -361,16 +329,7 @@ section{
    .info-a p{
        font-size:smaller;
     }
-    /* .info-a p{
-       flex-wrap:wrap;
-       font-family: 'Rubik Beastly', cursive;
-       font-family: 'Ubuntu Mono', monospace;
-        padding-left:10px;
 
-    } */
-    /* .subscribe p{
-       font-size:smaller;
-    } */
     .sub{
       width: fit-content;
       height: fit-content;
@@ -408,16 +367,7 @@ section{
    .info-a p{
        font-size:smaller;
     }
-    /* .info-a p{
-       flex-wrap:wrap;
-       font-family: 'Rubik Beastly', cursive;
-       font-family: 'Ubuntu Mono', monospace;
-        padding-left:10px;
 
-    } */
-    /* .subscribe p{
-       font-size:smaller;
-    } */
     .sub{
       width: fit-content;
       height: fit-content;
@@ -455,16 +405,7 @@ section{
    .info-a p{
        font-size:smaller;
     }
-    /* .info-a p{
-       flex-wrap:wrap;
-       font-family: 'Rubik Beastly', cursive;
-       font-family: 'Ubuntu Mono', monospace;
-        padding-left:10px;
 
-    } */
-    /* .subscribe p{
-       font-size:smaller;
-    } */
     .sub{
       width: fit-content;
       height: fit-content;
@@ -502,16 +443,7 @@ section{
    .info-a p{
        font-size:smaller;
     }
-    /* .info-a p{
-       flex-wrap:wrap;
-       font-family: 'Rubik Beastly', cursive;
-       font-family: 'Ubuntu Mono', monospace;
-        padding-left:10px;
 
-    } */
-    /* .subscribe p{
-       font-size:smaller;
-    } */
     .sub{
       width: fit-content;
       height: fit-content;
@@ -549,16 +481,7 @@ section{
    .info-a p{
        font-size:smaller;
     }
-    /* .info-a p{
-       flex-wrap:wrap;
-       font-family: 'Rubik Beastly', cursive;
-       font-family: 'Ubuntu Mono', monospace;
-        padding-left:10px;
 
-    } */
-    /* .subscribe p{
-       font-size:smaller;
-    } */
     .sub{
       width: fit-content;
       height: fit-content;
@@ -593,16 +516,7 @@ section{
    .info-a p{
        font-size:smaller;
     }
-    /* .info-a p{
-       flex-wrap:wrap;
-       font-family: 'Rubik Beastly', cursive;
-       font-family: 'Ubuntu Mono', monospace;
-        padding-left:10px;
 
-    } */
-    /* .subscribe p{
-       font-size:smaller;
-    } */
     .sub{
       width: fit-content;
       height: fit-content;
@@ -737,28 +651,7 @@ section{
       width:60px !important;
 
    }
-   /* .copyright{
-      position:static;
-      margin-top:0.5%;
-      padding:20px;
-   }
-   .copyright span,.copyright p{
-       font-size:18px;
-   }
-   nav{
-      background-color:0.5;
-   }
-   nav{
-      background-color: rgb(0, 1, 0,0);
-   }
-   .department{
-      /* background-color:rgb(0, 0, 0,0);
-      background-color:rgb(0, 1, 0,0);
-   }
-   .department div a{
-      color:rgb(255, 255, 255);
-   }
- */
+
 
  }
 
