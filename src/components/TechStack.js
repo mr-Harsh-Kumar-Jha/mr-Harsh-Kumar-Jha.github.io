@@ -4,7 +4,9 @@ const TechStack = () => {
       <>
          <div className='container start-about'>
             <div className='container'>
+               <div className='tech-stack-heading'>
                <h1 className="font-weight-bold-techstack " >Tech Stack</h1>
+               </div>
                <div className='container techstack-maincontent1'>
                   <div className='row row-hover '>
                      <div className='col'>
@@ -22,16 +24,16 @@ const TechStack = () => {
                   </div>
                   <div className='row mt-5'>
                   <div className='col'>
-                     <i class='fab fa-js-square' style={{fontSize:'48px',color:'yellow'}}>JavaScript</i>
+                     <i class='fab fa-js-square' style={{fontSize:'48px',color:'yellow'}}> JavaScript</i>
                      </div>
                      <div className='col'>
-                     <i class='fab fa-react' style={{fontSize:'48px',color:'rgb(112 240 230)'}}>React.js</i>
+                     <i class='fab fa-react' style={{fontSize:'48px',color:'rgb(112 240 230)'}}> React.js</i>
                      </div>
                      <div className='col'>
-                     <i class='fab fa-node' style={{fontSize:'48px',color:'green'}}>Node.js</i>
+                     <i class='fab fa-node' style={{fontSize:'48px',color:'green'}}> Node.js</i>
                      </div>
                      <div className='col'>
-                     <i class='fab fa-envira' style={{fontSize:'48px',color:'rgb(57 231 57)'}}>MongoDB</i>
+                     <i class='fab fa-envira' style={{fontSize:'48px',color:'rgb(57 231 57)'}}> MongoDB</i>
                      </div>
                   </div>
                </div>

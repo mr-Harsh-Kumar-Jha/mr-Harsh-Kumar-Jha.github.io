@@ -4,6 +4,7 @@ import Nav from './components/nav';
 import Home from './components/Home';
 import About from './components/about';
 import TechStack from './components/TechStack';
+import Footer from './components/Footer';
 // import { useSpring, config, animated } from "react-spring";
 // import { useState } from "react";
 // const url = (name, wrap = true) =>
@@ -33,8 +34,8 @@ function App() {
 
    const myStyle2 = {
       backgroundImage:
-         "url('https://img.freepik.com/free-photo/night-star-sky-background-copy-spec-design-texture_10541-539.jpg?w=1800')",
-      minheight: '100vh',
+         "url('https://images.unsplash.com/photo-1653941796655-98844505f783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTA0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60')",
+      minheight: '100vh',  //https://img.freepik.com/free-photo/night-star-sky-background-copy-spec-design-texture_10541-539.jpg?w=1800
       // marginTop:'-70px',
       // fontSize:'50px',
       backgroundSize: 'cover',
@@ -68,6 +69,9 @@ function App() {
          <section style={myStyle2}>
             <TechStack/>
          </section>
+         <div className='container'>
+            <Footer/>
+         </div>
       </>
    );
 }

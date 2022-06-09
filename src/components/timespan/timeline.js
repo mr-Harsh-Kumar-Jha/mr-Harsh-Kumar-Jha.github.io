@@ -26,9 +26,9 @@ const[value,setValue] = useState(0);
             }}
             values={ VALUES } />
         </div>
-        <div className='text-center'>
+        <div className='text-center' style={{height:'200px'}}>
           {/* any arbitrary component can go here */}
-            <div className="container flex-column left-0">
+            <div className="container flex-column left-0" style={{height:'100%'}}>
               <div className="timeline-heading"><h1>{TimelineElement[value].company}</h1></div>
               <div className="left-0"> <h4>Position: {TimelineElement[value].position}</h4></div>
               <div>  <span>Location: {TimelineElement[value].location} </span></div>
