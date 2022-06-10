@@ -604,7 +604,7 @@ padding-right:2%;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      padding-left:50px;
+      /* padding-left:50px; */
    }
    .address{
       width:100%;
