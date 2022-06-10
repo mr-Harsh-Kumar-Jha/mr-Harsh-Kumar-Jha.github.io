@@ -144,8 +144,9 @@ section{
             color: transparent;
      border: 2px solid whitesmoke;
      border-radius: 50px;
-
-     width:30%;
+padding-left:2%;
+padding-right:2%;
+     /* width:30%; */
 
 }
 .techstack-maincontent1{
@@ -163,7 +164,7 @@ section{
 
 /* -----------------------------Footer design starts---------------------------- */
  .container-1{
-    width:100vw;
+    width:100%;
 
     background-color:rgb(245, 245, 245,0.5);
     display:flex;
@@ -172,7 +173,7 @@ section{
     justify-content: center;
     align-items:center;
 
-    z-index:-1;
+    /* z-index:-1; */
  }
  .local{
     display:flex;
@@ -223,7 +224,7 @@ section{
      width:460px;
      background-color: rgb(184, 143, 250);
      text-align: center;
-     margin-left: 35%;
+     /* margin-left: 35%; */
  }
  .info{
    display:flex;
@@ -325,6 +326,7 @@ section{
       padding:0%;
       border-radius:50%;
       margin-left:-1%;
+      margin-top: 30px;
    }
    .info-a p{
        font-size:smaller;
@@ -363,6 +365,7 @@ section{
       padding:0%;
       border-radius:50%;
       margin-left:-1%;
+      margin-top: 30px;
    }
    .info-a p{
        font-size:smaller;
@@ -401,6 +404,7 @@ section{
       padding:0%;
       border-radius:50%;
       margin-left: 5%;
+      margin-top: 30px;
    }
    .info-a p{
        font-size:smaller;
@@ -630,7 +634,7 @@ section{
 @media screen and (min-width:1400px) {
    .personal_info{
       margin-top:-450px;
-      margin-left:35%;
+      margin-left:63px;
       top:0px;
       bottom:-56%;
       position:relative;
