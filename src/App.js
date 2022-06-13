@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/about';
 import TechStack from './components/TechStack';
 import Footer from './components/Footer';
+
 // import { useSpring, config, animated } from "react-spring";
 // import { useState } from "react";
 // const url = (name, wrap = true) =>

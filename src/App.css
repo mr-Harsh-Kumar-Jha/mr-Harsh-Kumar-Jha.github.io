@@ -65,6 +65,7 @@ section{
 }
 .Typewriter{
    font-size: xx-large;
+   height:200px;
 }
 .container{
    height:80%;
@@ -316,8 +317,12 @@ padding-right:2%;
       flex-wrap: wrap;
 
    }
+   .box-bar-header{
+      font-size: 2.5rem;
+      font-family: 'Ubuntu', sans-serif;
+   }
    .box-content{
-      height:280px;
+      height:380px;
    }
    .personal_info{
       height:500px;
@@ -356,7 +361,11 @@ padding-right:2%;
 
    }
    .box-content{
-      height:280px;
+      height:380px;
+   }
+   .box-bar-header{
+      font-size: 2.5rem;
+      font-family: 'Ubuntu', sans-serif;
    }
    .personal_info{
       height:500px;
@@ -395,7 +404,11 @@ padding-right:2%;
 
    }
    .box-content{
-      height:280px;
+      height:380px;
+   }
+   .box-bar-header{
+      font-size: 2.5rem;
+      font-family: 'Ubuntu', sans-serif;
    }
    .personal_info{
       height:500px;
@@ -434,7 +447,11 @@ padding-right:2%;
 
    }
    .box-content{
-      height:280px;
+      height:380px;
+   }
+   .box-bar-header{
+      font-size: 2.5rem;
+      font-family: 'Ubuntu', sans-serif;
    }
    .personal_info{
       height:500px;
@@ -472,7 +489,7 @@ padding-right:2%;
 
    }
    .box-content{
-      height:280px;
+      height:380px;
    }
    .personal_info{
       height:500px;
@@ -507,7 +524,7 @@ padding-right:2%;
 
    }
    .box-content{
-      height:280px;
+      height:380px;
    }
    .personal_info{
       height:500px;
@@ -542,7 +559,7 @@ padding-right:2%;
 
    }
    .box-content{
-      height:280px;
+      height:380px;
    }
    .personal_info{
       height:500px;
@@ -562,7 +579,7 @@ padding-right:2%;
 
    }
    .box-content{
-      height:280px;
+      height:380px;
    }
    .personal_info{
       height:500px;
@@ -582,7 +599,7 @@ padding-right:2%;
 
    }
    .box-content{
-      height:280px;
+      height:380px;
    }
    .personal_info{
       height:500px;
