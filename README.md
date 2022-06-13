@@ -6,3 +6,4 @@ This is My Personal Website , Where i post informative Blogs on various Technolo
 This website is Build using React.js Technology . And for designing BootStrap technology is used , also custom CSS has also been added in order to maintain certain balance .
 
 ## Please visit http://harshjha.vercel.app in order to know more about me.....
+<strong> http://harshjha.vercel.app </strong>
