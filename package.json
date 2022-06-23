@@ -1,61 +1,72 @@
 {
-   "homepage": " https://harshjha.vercel.app/",
-   "name": "personalwebsite",
-   "version": "0.1.0",
-   "private": true,
-   "dependencies": {
-      "@fortawesome/fontawesome-svg-core": "^6.1.1",
-      "@fortawesome/free-brands-svg-icons": "^6.1.1",
-      "@fortawesome/free-solid-svg-icons": "^6.1.1",
-      "@fortawesome/react-fontawesome": "^0.1.18",
-      "@react-spring/web": "^9.4.5",
-      "@testing-library/jest-dom": "^5.16.4",
-      "@testing-library/react": "^13.3.0",
-      "@testing-library/user-event": "^14.2.0",
-      "@use-gesture/react": "^10.2.15",
-      "create-app-react": "^1.0.6",
-      "latest": "^0.2.0",
-      "latest-version": "^6.0.0",
-      "react": "^18.1.0",
-      "react-dom": "^18.1.0",
-      "react-horizontal-timeline": "^1.5.3",
-      "react-scripts": "5.0.1",
-      "react-spring": "^9.4.5",
-      "typewriter-effect": "^2.18.2",
-      "version": "^0.1.2",
-      "web-vitals": "^2.1.4"
-   },
-   "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
-   },
-   "eslintConfig": {
-      "extends": [
-         "react-app",
-         "react-app/jest"
-      ]
-   },
-   "browserslist": {
-      "production": [
-         ">0.2%",
-         "not dead",
-         "not op_mini all"
-      ],
-      "development": [
-         "last 1 chrome version",
-         "last 1 firefox version",
-         "last 1 safari version"
-      ]
-   },
-   "devDependencies": {
-      "css-minimizer-webpack-plugin": "^4.0.0",
-      "gh-pages": "^4.0.0",
-      "node-sass": "^7.0.1"
-   },
-   "engines": {
-      "node": "^16.15.1",
-      "npm": "^8.11.0"
-   }
+  "homepage": " https://harshjha.vercel.app/",
+  "name": "personalwebsite",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@react-spring/web": "^9.4.5",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.0",
+    "@use-gesture/react": "^10.2.15",
+    "create-app-react": "^1.0.6",
+    "latest": "^0.2.0",
+    "latest-version": "^6.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-horizontal-timeline": "^1.5.3",
+    "react-scripts": "5.0.1",
+    "react-spring": "^9.4.5",
+    "typewriter-effect": "^2.18.2",
+    "version": "^0.1.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "gh-pages": "^4.0.0",
+    "node-sass": "^7.0.1"
+  },
+  "engines": {
+    "node": "^16.15.1",
+    "npm": "^8.11.0"
+  },
+  "description": "## Getting Started with Me",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-Harsh-Kumar-Jha/mr-Harsh-Kumar-Jha.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-Harsh-Kumar-Jha/mr-Harsh-Kumar-Jha.github.io/issues"
+  }
 }

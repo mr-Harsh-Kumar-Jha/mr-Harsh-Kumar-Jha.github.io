@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/about';
 import TechStack from './components/TechStack';
 import Footer from './components/Footer';
+import Project from './components/project/project';
 
 // import { useSpring, config, animated } from "react-spring";
 // import { useState } from "react";
@@ -70,7 +71,10 @@ function App() {
          <section style={myStyle2}>
             <TechStack/>
          </section>
-         <div className='container'>
+         <section >
+            <Project/>
+         </section>
+         <div className='container-fluid'>
             <Footer/>
          </div>
       </>

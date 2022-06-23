@@ -160,6 +160,34 @@ padding-right:2%;
    background-color: hsl(240, 1%, 22%);
 }
 
+/*------------------------------project design starts-------------------------*/
+
+.project-cont{
+   margin-top: 60px;
+}
+.project-heading{
+   font-size: 4rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background: linear-gradient(to left,
+   rgb(132, 3, 132),
+   indigo,
+   rgb(54, 15, 162),
+   rgb(155, 145, 14),
+   rgb(198, 55, 16),
+   orange,
+   rgb(96, 4, 139));
+-webkit-background-clip: text;
+color: transparent;
+}
+.row{
+   justify-content: center;
+}
+.card-text{
+   text-align:left;
+}
+
+
+/*-------------------------------project design ends------------------------*/
 
 
 /* -----------------------------Footer design starts---------------------------- */
@@ -321,6 +349,9 @@ padding-right:2%;
       font-size: 2.5rem;
       font-family: 'Ubuntu', sans-serif;
    }
+   .text2{
+      flex-wrap: nowrap !important;
+   }
    .box-content{
       height:380px;
    }
@@ -329,13 +360,18 @@ padding-right:2%;
       width:250px;
       padding:0%;
       border-radius:50%;
-      margin-left:-1%;
+      /* margin-left:-1%; */
       margin-top: 30px;
    }
    .info-a p{
        font-size:smaller;
     }
 
+.social_media span {
+    font-weight:normal;
+    font-size: xx-large;
+    color: rgb(185, 144, 250);
+}
     .sub{
       width: fit-content;
       height: fit-content;
@@ -349,9 +385,12 @@ padding-right:2%;
     .address{
       flex-wrap: wrap;
    }
-    .address span{
-       width:50%;
+   .card-group{
+      width:unset !important;
     }
+    /* .address span{
+       width:50%;
+    } */
 
 }
 
@@ -372,7 +411,7 @@ padding-right:2%;
       width:300px;
       padding:0%;
       border-radius:50%;
-      margin-left:-1%;
+      /* margin-left:-1%; */
       margin-top: 30px;
    }
    .info-a p{
@@ -394,6 +433,9 @@ padding-right:2%;
    }
     .address span{
        width:50%;
+    }
+    .card-group{
+      width:unset !important;
     }
 
 }
@@ -415,7 +457,7 @@ padding-right:2%;
       width:300px;
       padding:0%;
       border-radius:50%;
-      margin-left: 5%;
+      /* margin-left: 5%; */
       margin-top: 30px;
    }
    .info-a p{
@@ -438,6 +480,9 @@ padding-right:2%;
     .address span{
        width:50%;
     }
+    .card-group{
+      width:unset !important;
+    }
 
 }
 
@@ -458,7 +503,7 @@ padding-right:2%;
       width:320px;
       padding:0%;
       border-radius:50%;
-      margin-left: 10%;
+      /* margin-left: 10%; */
    }
    .info-a p{
        font-size:smaller;
@@ -480,6 +525,9 @@ padding-right:2%;
     .address span{
        width:50%;
     }
+    .card-group{
+      width:unset !important;
+    }
 
 }
 
@@ -496,7 +544,7 @@ padding-right:2%;
       width:320px;
       padding:0%;
       border-radius:50%;
-      margin-left: 18%;
+      /* margin-left: 18%; */
    }
    .info-a p{
        font-size:smaller;
@@ -514,6 +562,9 @@ padding-right:2%;
     }
     .address span{
        width:50%;
+    }
+    .card-group{
+      width:unset !important;
     }
 
 }
@@ -531,7 +582,7 @@ padding-right:2%;
       width:320px;
       padding:0%;
       border-radius:50%;
-      margin-left: 18%;
+      /* margin-left: 18%; */
    }
    .info-a p{
        font-size:smaller;
@@ -550,6 +601,9 @@ padding-right:2%;
     .address span{
        width:50%;
     }
+    .card-group{
+      width:unset !important;
+    }
 
 }
 
@@ -566,10 +620,13 @@ padding-right:2%;
       /* width:320px; */
       padding:0%;
       border-radius:50%;
-      margin-left: 10%;
+      /* margin-left: 10%; */
    }
    .info-a p{
        font-size:smaller;
+    }
+    .card-group{
+      width:unset !important;
     }
 }
 
@@ -586,10 +643,13 @@ padding-right:2%;
       /* width:320px; */
       padding:0%;
       border-radius:50%;
-      margin-left: 10%;
+      /* margin-left: 10%; */
    }
    .info-a p{
        font-size:smaller;
+    }
+    .card-group{
+      width:unset !important;
     }
 }
 
@@ -606,10 +666,13 @@ padding-right:2%;
       /* width:320px; */
       padding:0%;
       border-radius:50%;
-      margin-left: 20%;
+      /* margin-left: 20%; */
    }
    .info-a p{
        font-size:smaller;
+    }
+    .card-group{
+      width:unset !important;
     }
 }
 
