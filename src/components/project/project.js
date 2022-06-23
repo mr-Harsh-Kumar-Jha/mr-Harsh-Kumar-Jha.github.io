@@ -34,9 +34,9 @@ const Project = () => {
                                     </button>
                                  </h2>
                                  <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne" style={{
-                                    height: "340px" }}>
+                                    height: "240px" ,overflow:"scroll" }}>
                                     <div className="accordion-body card-text" style={{
-                                    height: "350px" }}>
+                                    height: "250px" }}>
                                        {/* <strong>This is the second item's accordion body.</strong>*/}  {e.description}
                                     </div>
                                  </div>
