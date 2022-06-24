@@ -48,9 +48,9 @@ const Project = () => {
                                  <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                                     <div className="accordion-body card-text">
                                        {/* <strong>This is the second item's accordion body.</strong>*/}
-                                       <div className='row row-hover '>
+                                       <div className='row row-hover project-col'>
                                           {e.Tech.map((elem) => {
-                                             return <div className='col project-col'>
+                                             return <div className='col '>
                                                 <div className='container-fluid tech-used-in-project'>
                                                       <img src={process.env.PUBLIC_URL + elem} alt={elem} />
                                                 </div>
@@ -68,8 +68,8 @@ const Project = () => {
                                        My Learnings
                                     </button>
                                  </h2>
-                                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree">
-                                    <div className="accordion-body card-text">
+                                 <div id="collapseThree" className="accordion-collapse collapse project-col" aria-labelledby="headingThree" >
+                                    <div className="accordion-body card-text ">
                                        {/* <strong>This is the second item's accordion body.</strong>*/} {e.Learning.map((elem) => {
                                           return <p>{elem}</p>
                                        })}
