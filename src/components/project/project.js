@@ -48,10 +48,10 @@ const Project = () => {
                                  <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                                     <div className="accordion-body card-text">
                                        {/* <strong>This is the second item's accordion body.</strong>*/}
-                                       <div className='row row-hover project-col'>
+                                       <div className='row row-hover '>
                                           {e.Tech.map((elem) => {
-                                             return <div className='col '>
-                                                <div className='container-fluid tech-used-in-project'>
+                                             return <div className='col'>
+                                                <div className='tech-used-in-project '>
                                                       <img src={process.env.PUBLIC_URL + elem} alt={elem} />
                                                 </div>
                                                 {/* <i class='fab fa-codiepie' style={{fontSize:'48px',color:'rgb(90 90 231)'}}> C++ </i> */}
