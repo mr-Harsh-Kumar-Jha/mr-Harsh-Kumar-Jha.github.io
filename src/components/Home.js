@@ -20,12 +20,12 @@ const Home = () => {
 
    )
    const rotate = useSpring({
-      loop: true,
+      loop: false,
       to: [
          { rotateZ: 360, x: 0, opacity: 1 },
-         { rotateZ: 360, x: 200, opacity: 1 },
-         { rotateZ: 0, x: 0, opacity: 1 },
-         { rotateZ: 0, x: -200, opacity: 1 }
+         // { rotateZ: 360, x: 200, opacity: 1 },
+         // { rotateZ: 0, x: 0, opacity: 1 },
+         // { rotateZ: 0, x: -200, opacity: 1 }
 
       ],
       from: { rotateZ: 0, x: -200, opacity: 1 },
