@@ -4,15 +4,9 @@
       "name": "Snake Game - Game",
       "description": "This is a Snake Game Made using basic stack's (HTML, CSS and JavaScript). This is my first project and I Loved building it . Where I learnt how to build a Gaming Engine to control screen refresh rate . Loved playing with also I had hosted it using GitHub Pages so u can also enjoy playing it. (Only desktop version of this game is present)",
       "Tech": [
-         {
-            "icon": "faHtml5"
-         },
-         {
-            "icon": "faCss3"
-         },
-         {
-            "icon": "faJsSquare"
-         }
+         "/images/html.gif",
+         "/images/css.png",
+         "/images/javaScript.gif"
       ],
       "Learning": [
          " 1.] Learnt how to build a Gaming Engine",
@@ -26,15 +20,9 @@
       "name": "Tic Tac Toe - Game",
       "description": "This is a Tic Tac Toe Game Made using basic stack's (HTML, CSS and JavaScript). This is my Second project and I Loved building it . Loved playing with it , also I had hosted it using GitHub Pages so u can also enjoy playing it. (Both desktop and android version of this game is present)",
       "Tech": [
-         {
-            "icon": "faHtml5"
-         },
-         {
-            "icon": "faCss3"
-         },
-         {
-            "icon": "faJsSquare"
-         }
+         "/images/html.gif",
+         "/images/css.png",
+         "/images/javaScript.gif"
       ],
       "Learning": [
          " 1.] Got more proficcient in the art of using CSS",
@@ -48,15 +36,10 @@
       "name": "News Monkey",
       "description": "This is a News App , that keeps u updated with the latest news .I have used ReactJs and BootStrap in building this news-app . This is my Third project and it was great experience building this application , Where i learnt how to deal with API request(calls) and Asynchronous nature of JavaScript . This project is not been hosted as I have free version of NewsApi (i.e this webservice provides us with latest news in the form of json and it has two versions paid and unpaid . In unpaid version they are not allowing HTTPS request). 'You can see it on my github'",
       "Tech": [
-         {
-            "icon": "faReact"
-         },
-         {
-            "icon": "faCss3"
-         },
-         {
-            "icon": "faBootstrap"
-         }
+         "/images/react.gif",
+         "/images/css.png",
+         "/images/bootstrap.png",
+         "/images/javaScript.gif"
       ],
       "Learning": [
          " 1.] Learnt how to use CallBack in order to access Country component from another component .",
@@ -71,15 +54,10 @@
       "name": "Personal Website",
       "description": "This is my personal website , Which is built using ReactJs and BootStrap . I enjoyed building my own website , where I learnt how to use React-Spring (npm package for applying animation) , TypeWriter  and how to  host our works on the Domain . I faced various challanges while building my website but Resolved every issues that arised with great deligence and with learning attitude, this helped me a lot . ",
       "Tech": [
-         {
-            "icon": "faReact"
-         },
-         {
-            "icon": "faCss3"
-         },
-         {
-            "icon": "faBootstrap"
-         }
+         "/images/react.gif",
+         "/images/css.png",
+         "/images/bootstrap.png",
+         "/images/javaScript.gif"
       ],
       "Learning": [
          " 1.] Learnt how to use React-Spring(an animation library) , TypeWriter and Timeline",
@@ -94,15 +72,9 @@
       "name": "Weather App",
       "description": "This is a Weather App created using Node.js , HTML and CSS. Building this App was great Experience . Learnt how to fetch API by not using any npm package and also Asynchronous functionality of JavaScript . This App can show u the cureent temperature prediction of any place . Here I have used 2 API one for converting Location to Latitude and Longitude and Other one to find weather condition in that perticular longitude and latitude . ",
       "Tech": [
-         {
-            "icon": "faNode"
-         },
-         {
-            "icon": "faCss3"
-         },
-         {
-            "icon": "faBootstrap"
-         }
+         "/images/nodejs.png",
+         "/images/css.png",
+         "/images/bootstrap.png"
       ],
       "Learning": [
          " 1.] Learnt how to Fetch API \n",

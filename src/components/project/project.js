@@ -1,6 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faNode, faHtml5, faCss3, faEnvira, faCodiepie, faCuttlefish, faJsSquare, faBootstrap } from '@fortawesome/free-brands-svg-icons';
 const projects = require('./project.json');
 
 
@@ -52,8 +50,10 @@ const Project = () => {
                                        {/* <strong>This is the second item's accordion body.</strong>*/}
                                        <div className='row row-hover '>
                                           {e.Tech.map((elem) => {
-                                             return <div className='col'>
-                                                <FontAwesomeIcon icon={elem.icon} />
+                                             return <div className='col project-col'>
+                                                <div className='container-fluid tech-used-in-project'>
+                                                      <img src={process.env.PUBLIC_URL + elem} alt={elem} />
+                                                </div>
                                                 {/* <i class='fab fa-codiepie' style={{fontSize:'48px',color:'rgb(90 90 231)'}}> C++ </i> */}
                                              </div>
                                           })}

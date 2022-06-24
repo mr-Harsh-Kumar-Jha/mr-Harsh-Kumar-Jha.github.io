@@ -185,6 +185,13 @@ color: transparent;
 .card-text{
    text-align:left;
 }
+.project-col{
+   overflow: scroll;
+}
+.tech-used-in-project img{
+   height:68px;
+   width:68px;
+}
 
 
 /*-------------------------------project design ends------------------------*/
