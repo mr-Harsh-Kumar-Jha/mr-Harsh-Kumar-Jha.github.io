@@ -24,9 +24,12 @@ function App() {
    //    onRest: () => set(!flip),
    // })
 
+   const background1 = process.env.PUBLIC_URL + "/images/background1.jpeg";
+   const background2 = process.env.PUBLIC_URL + "/images/background2.webp";
+   const background3 = process.env.PUBLIC_URL + "/images/background3.jpeg"
    const myStyle = {
       backgroundImage:
-         "url('https://as2.ftcdn.net/v2/jpg/03/15/25/45/1000_F_315254526_BguE2UPiesByZ4CA7HQoMAASbWeltDIv.jpg')",
+         `url(${background2})`,
       minheight: '100vh',
       // marginTop:'-70px',
       // fontSize:'50px',
@@ -36,8 +39,18 @@ function App() {
 
    const myStyle2 = {
       backgroundImage:
-         "url('https://images.unsplash.com/photo-1653941796655-98844505f783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTA0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60')",
+      `url(${background3})`,
       minheight: '100vh',  //https://img.freepik.com/free-photo/night-star-sky-background-copy-spec-design-texture_10541-539.jpg?w=1800
+      // marginTop:'-70px',
+      // fontSize:'50px',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+   };
+
+   const myStyle3 = {
+      backgroundImage:
+         `url(${background1})`,
+      minheight: '100vh',
       // marginTop:'-70px',
       // fontSize:'50px',
       backgroundSize: 'cover',
@@ -62,21 +75,24 @@ function App() {
                </polygon>
             </animated.svg>
          </div> */}
-         <section style={myStyle}>
+         <section style = {myStyle3}>
             <Home />
          </section>
-         <section>
+         <div style = {myStyle}>
+         <section >
             <About/>
          </section>
-         <section style={myStyle2}>
+         <section >
             <TechStack/>
          </section>
+         </div>
          <section >
             <Project/>
          </section>
          <div className='container-fluid'>
             <Footer/>
          </div>
+
       </>
    );
 }
