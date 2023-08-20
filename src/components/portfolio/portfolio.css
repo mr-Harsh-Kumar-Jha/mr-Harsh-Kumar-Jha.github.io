@@ -112,6 +112,8 @@
 .yearWise_project{
    display:flex;
    gap:2rem;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
 .yearWise_project .btn{
