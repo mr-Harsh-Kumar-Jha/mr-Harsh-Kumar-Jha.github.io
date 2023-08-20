@@ -1,0 +1,24 @@
+[
+   {
+      "College":"Dr. D.Y. Patil Institute of Technology",
+      "tenure":"Dec 2021 - Present",
+      "logo":"https://publicschool.dypvp.edu.in/images/DPUlogo.png",
+      "degreeType":"BE - Bachelors of Engineering",
+      "location":"Pune"
+   },
+   {
+      "College":"Abhishek Vidyalayam",
+      "tenure":"July 2019 - August 2021",
+      "logo":"/images/abhishek.jpg",
+      "degreeType":"Higher Secondary",
+      "location":"Pune"
+   },
+   {
+      "College":"Dr. D.Y. Public School",
+      "tenure":"June 2007- June 2019",
+      "logo":"https://publicschool.dypvp.edu.in/images/DPUlogo.png",
+      "degreeType":"Primary && Secondary",
+      "location":"Pune"
+   }
+
+]

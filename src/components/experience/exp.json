@@ -1,0 +1,26 @@
+[
+   {
+      "jobTitle":"Frontend Engineer",
+      "tenure":"July 2023 - Present",
+      "logo":"https://uploads-ssl.webflow.com/634fa233f87e0b7cc0ede3ce/639c58efbde4545fdc34b036_Bynry%2032x32.png",
+      "comName":"Bynry",
+      "techStack":["AngularJs" , "NodeJs" , "API" , "ExpressJs", "Docker"],
+      "location":"Pune"
+   },
+   {
+      "jobTitle":"Web Developer",
+      "tenure":"Nov 2022 - Dec 2022",
+      "logo":"/images/dtory.png",
+      "comName":"Dtory",
+      "techStack":["ReactJs" , "NodeJs" , "API" , "ExpressJs"],
+      "location":"Remote Work"
+   },
+   {
+      "jobTitle":"Web Developer",
+      "tenure":"Jan 2022 - Nov 2022",
+      "logo":"/images/devkraft.jpg",
+      "comName":"DevKraft",
+      "techStack":["ReactJs" , "NodeJs" , "API" , "ExpressJs"],
+      "location":"Pune"
+   }
+]

@@ -1,0 +1,164 @@
+#portfolio {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.portfolio__container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 2.5rem;
+}
+
+.portfolio__item {
+   background: var(--color-bg-variant);
+   padding: 1.3rem;
+   border-radius: 2rem;
+   border: 1px solid transparent;
+   transition: var(--transition);
+   position:relative;
+   height:45rem;
+}
+
+/* .portfolio__item:hover {
+   border-color: var(--color-primary-variant);
+   background: transparent;
+} */
+
+.portfolio__item-image {
+   border-radius: 1.5rem;
+   overflow: hidden;
+
+}
+.portfolio__item-image img{
+   height:11rem;
+}
+.portfolio__item p{
+   height:50%;
+   overflow-y: scroll;
+}
+.portfolio__item p::-webkit-scrollbar{
+   display: none;
+}
+
+.portfolio__item h3 {
+   margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta {
+   display: flex;
+   gap: 1rem;
+   margin-bottom: 1rem;
+   position:absolute;
+   bottom: 0;
+}
+
+.github__container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 62rem;
+   align-self: center;
+   margin-top: 5rem;
+}
+
+.month_name {
+   padding: 1rem;
+   font-size: 1.2rem;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.github_box-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.5rem;
+   justify-content: center;
+}
+
+.box {
+   width: 1rem;
+   height: 1rem;
+   background-color: #555;
+   border-radius: 0.2rem;
+   cursor: pointer;
+   transition: 2s all ease;
+}
+
+.github__container .active:nth-child(4n) {
+   background-color: var(--color-primary);
+}
+.github__container:hover .active:nth-child(2n+1){
+   background-color: var(--color-primary);
+ }
+ .github__container:hover .active:nth-child(2n){
+   background-color: rgb(0, 255, 255);
+ }
+
+.githubTitle {
+   font-size:4rem;
+   font-weight: 700;
+   letter-spacing: 0.5rem;
+   cursor: pointer;
+   color:var(--color-white);
+}
+
+.projectSelect_Container{
+   display: flex;
+   margin-bottom: 3rem;
+}
+
+.yearWise_project{
+   display:flex;
+   gap:2rem;
+}
+
+.yearWise_project .btn{
+   font-size: 1rem !important;
+   color:var(--color-white);
+   background: var(--color-bg-variant);
+}
+
+.yearWise_project .btn:disabled{
+   background-color: transparent;
+   cursor: not-allowed;
+  pointer-events: all !important;
+}
+
+.yearWise_project .btn__active{
+   background: var(--color-primary);
+   color:var(--color-bg-variant);
+}
+
+/* =================Media Query (Medium Devices)============= */
+
+@media screen and (max-width:1024px) {
+   .portfolio__container {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+   }
+   .github__container{
+      width:47rem;
+   }
+   .box{
+      width:0.65rem;
+      height:0.65rem;
+   }
+}
+/* ==================Extensive for devices ================= */
+
+@media screen and (max-width:750px) {
+   .github__container{
+      display: none;
+   }
+}
+
+/* =================Media Query (Small Devices)============= */
+
+@media screen and (max-width:650px) {
+   .portfolio__container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+   }
+}

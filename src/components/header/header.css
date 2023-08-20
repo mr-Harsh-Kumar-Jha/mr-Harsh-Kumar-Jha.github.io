@@ -1,0 +1,132 @@
+header{
+   height:50rem;
+   padding-top:5rem;
+   overflow: hidden;
+}
+.header__container{
+   text-align: center;
+   height:43rem;
+   position: relative;
+}
+
+/* ================CTA=============== */
+.cta{
+   margin-top: 2.5rem;
+   display: flex;
+   gap: 1.2rem;
+   justify-content: center;
+
+}
+
+/* ================Header Socials=============== */
+.header__socials{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap:0.8rem;
+   position: absolute;
+   bottom:3rem;
+   left: 0;
+   text-align: center;
+}
+.header__socials a svg{
+   width:1.65rem;
+   height:1.65rem;
+   aspect-ratio: 1/1;
+}
+.header__socials::after{
+   content:"";
+   width:1px;
+   height:2rem;
+   background: var(--color-primary);
+}
+
+/* ================Me=============== */
+.me{
+   background: linear-gradient(var(--color-primary) , transparent);
+   width:30rem;
+   height:25rem;
+   order:1;
+   position: relative;
+   left:50%;
+   transform: translateX(-50%);
+   margin-top: 4rem;
+   border:2px solid var(--color-primary);
+   /* border-radius: 12rem 12rem 0 0; */
+   overflow: hidden;
+   padding:5rem 1.5rem 1.5rem 1.5rem;
+   /* border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; */
+   animation: profile__animate 8s ease-in-out infinite;
+   box-shadow: inset 0 0 0 9px linear-gradient(var(--color-primary) , transparent);
+}
+.me img{
+   display:inline-block;
+   width:70%;
+   object-fit: cover;
+}
+
+@keyframes profile__animate {
+   0%{
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+   }50%{
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+   }100%{
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+   }
+}
+/* ================Scroll Dowwn=============== */
+.scroll__down{
+   position:absolute;
+   right:2.3rem;
+   bottom:5rem;
+   transform: rotate(90deg);
+   font-weight: 300;
+   font-size: 0.9rem;
+   background:rgba(0, 0, 0, 0.3);
+   padding:1rem;
+   border:1px solid transparent;
+   border-radius: 4rem;
+   box-shadow: 1rem 1rem 3rem hsla(205, 100%, 65%, 0.4);
+}
+.scroll__down:hover{
+   background: transparent;
+}
+
+/* =======================textWriter===================== */
+
+.text-light span{
+   animation: blink  1.3s;
+   animation-iteration-count:infinite;
+   animation-timing-function: ease-out;
+}
+
+@keyframes blink {
+   from{
+      opacity:0.2;
+   }to{
+      opacity: 1;
+   }
+}
+
+
+/* =================Media Query (Medium Devices)============= */
+
+@media screen and (max-width:1024px) {
+    /* header{
+      height:68vh;
+    }*/
+    .scroll__down{
+      right:-1.5rem;
+   }
+}
+
+/* =================Media Query (Small Devices)============= */
+
+@media screen and (max-width:650px) {
+   /* header{
+      height:100vh;
+    } */
+    .header__socials,.scroll__down{
+      display:none;
+    }
+}

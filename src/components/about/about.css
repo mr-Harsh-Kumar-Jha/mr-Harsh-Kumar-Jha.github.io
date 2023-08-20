@@ -1,0 +1,149 @@
+.about__container{
+   display: grid;
+   grid-template-columns: 37% 53%;
+   gap:15%;
+}
+.about__me{
+   width:100%;
+   aspect-ratio: 1/1;
+   border-radius: 2rem;
+   background: linear-gradient(45deg , transparent , var(--color-primary) , transparent);
+   display:grid;
+   place-items: center;
+}
+
+.about__me-image{
+   /* border-radius: 2rem; */
+   /* overflow: hidden; */
+   width:100%;
+   transform: rotate(10deg);
+   transition: var(--transition);
+}
+.about__me-image img{
+   border-radius: 2rem;
+}
+.about__me-image:hover{
+   transform: rotate(0deg);
+}
+
+.about__cards{
+   display:grid;
+   grid-template-columns: repeat(3,1fr);
+   gap:1.5rem;
+}
+.about__card{
+   background:var(--color-bg-variant);
+   border:1px solid transparent;
+   border-radius: 1rem;
+   text-align: center;
+   padding:2rem;
+   transition: var(--transition);
+}
+.about__card:hover{
+   background: transparent;
+   border-color: var(--color-primary-variant);
+  cursor: default;
+}
+.about__icon{
+   color:var(--color-primary);
+   font-size: 1.4rem;
+   margin-bottom: 1rem;
+}
+.about__card h5{
+   font-size: 0.95rem;
+}
+.about__card small{
+   font-size: 0.7rem;
+   color:var(--color-light);
+}
+
+.about__content p{
+   color:var(--color-light);
+}
+.about__card-textCont{
+   display: flex;
+   margin:2rem 0 2.6rem;
+   flex-wrap: wrap;
+}
+.about__card-textCont strong{
+   font-size: 2rem;
+   letter-spacing: 0.2rem;
+}
+
+.soft__img{
+   position: relative;
+}
+.soft__img img{
+   position: absolute;
+    width: 25rem;
+    right: 0;
+    top: -2rem;
+    animation: floater 13s linear infinite;
+    animation-direction: alternate;
+    z-index: -1;
+}
+
+@keyframes floater{
+  0%{
+   top:-1rem;
+   right:2rem;
+  }25%{
+   top:0rem;
+   right:0;
+  }50%{
+   top:-2rem;
+   right:-1rem;
+  }75%{
+   top:0rem;
+   right:0;
+  }100%{
+   top:-2rem;
+   right:2rem;
+  }
+
+}
+
+/* =================Media Query (Medium Devices)============= */
+@media screen and (max-width:1130px){
+   .soft__img img{
+      position: absolute;
+      display: none;
+       width: 20rem;
+       right: 0;
+       top: -2rem;
+   }
+}
+
+@media screen and (max-width:1024px) {
+    .about__container{
+      grid-template-columns: 1fr;
+      gap:0;
+    }
+    .about__me{
+      width:45%;
+      margin:2rem auto 4rem;
+    }
+    .about__content p{
+      margin:1rem 0rem 1.5rem;
+    }
+
+}
+
+/* =================Media Query (Small Devices)============= */
+
+@media screen and (max-width:600px) {
+    .about__me{
+      width:65%;
+      margin:0rem auto 3rem;
+    }
+    .about__cards{
+      grid-template-columns: 1fr 1fr;
+      gap:1rem;
+    }
+    .about__content{
+      text-align: center;
+    }
+    .about__content p{
+      margin:1.5rem 0rem;
+    }
+}

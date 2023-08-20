@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React , {useState , useEffect} from "react";
+import { BrowserRouter as Router, Routes, Route }
+   from 'react-router-dom';
+import Nav from './components/nav/nav'
+import Footer from './components/footer/footer'
+import MainCompo from "./main-components/maincompo";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   const [activeNav,setactiveNav] = useState("#");
+   useEffect(() => {
+        console.log(activeNav);
+   }, [activeNav])
+
+   return (
+      <>
+        <Router>
+           <Nav actNav={activeNav}/>
+         <Routes>
+            <Route exact path='/' element={<MainCompo setactiveNav={setactiveNav}/>}></Route>
+         </Routes>
+         <Footer/>
+        </Router>
+      </>
+   );
 }
 
 export default App;
