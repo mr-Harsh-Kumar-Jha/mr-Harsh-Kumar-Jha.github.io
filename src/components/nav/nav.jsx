@@ -2,7 +2,7 @@ import { React, useState , useEffect} from 'react'
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
-import { RiServiceLine } from 'react-icons/ri';
+// import { RiServiceLine } from 'react-icons/ri';
 import { BiMessageSquareDetail } from 'react-icons/bi';
 import './nav.css';
 
@@ -33,12 +33,12 @@ const Nav = ({actNav}) => {
                   <span className="text">Experience</span>
                </a>
             </li>
-            <li onClick={() => setactiveNav("#services")} className={activeNav === '#services' ? 'active' : ' '}>
+            {/* <li onClick={() => setactiveNav("#services")} className={activeNav === '#services' ? 'active' : ' '}>
                <a href="#services" >
                   <span className="icon"><RiServiceLine /></span>
                   <span className="text">Service</span>
                </a>
-            </li>
+            </li> */}
             <li onClick={() => setactiveNav("#contact")} className={activeNav === '#contact' ? 'active' : ' '}>
                <a href="#contact" >
                  <span className='icon'> <BiMessageSquareDetail /></span>

@@ -97,7 +97,7 @@ const project = {
          ],
          "image": "/images/imageuploade.png",
          "gitUrl":"https://github.com/mr-Harsh-Kumar-Jha/mr-Harsh-Kumar-Jha.github.io",
-         "liveUrl": "harshjha.vercel.app"
+         "liveUrl": "/"
       },
       {
          "id": 6,
@@ -139,6 +139,26 @@ const project = {
       "image": "/images/Restwave.png",
       "gitUrl":"https://github.com/streamlen/restwave",
       "liveUrl": "https://www.npmjs.com/package/restwave"
+   },
+   {
+      "id":2,
+      "year":"second",
+      "name":"Sorting Visulaizer",
+      "description":`It is Visualization Tool where u can Visualize Algorithms like 1.] Bubble Sort, 2.] Insertion Sort, 3.] Selection Sort, 4.] Count Sort and 'many more to come'.  I have built this using pure 1.] HTML, 2.] CSS, 3.] Javascript. This is a website where u can have clear and proper visualization of the Algorithm as there is speed management tool, where u can adjust the speed of visualization. More functionalitites such as step by step display of Steps and many more algorithm such as 1.] Merge Sort, 2.] Quick Sort, 3.] BFS, 4.] DFS, etc. to come....`,
+      "Tech": [
+         "/images/react.gif",
+         "/images/css.png",
+         "/images/bootstrap.png",
+         "/images/javascript.gif"
+      ],
+      "Learning": [
+         " 1.] Learnt how to play with CSS for changing the position of elements",
+         " 2.] Learnt core Javascript concept",
+         "3.] Learnt how mixture of all three HTML, CSS and Javascript functions together"
+      ],
+      "image": "/images/SortingVisualizer.png",
+      "gitUrl":"https://github.com/streamlen/sortingAlgorithmVisualizer",
+      "liveUrl": "https://streamlen.github.io/sortingAlgorithmVisualizer/"
    }
 ],
    'third':[],
