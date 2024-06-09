@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import './experience.css'
 import { AiOutlineConsoleSql } from 'react-icons/ai';
-import { FaReact, FaHtml5, FaNodeJs, FaDocker, FaSass } from 'react-icons/fa';
+import { FaReact, FaHtml5, FaNodeJs, FaDocker, FaSass, FaAws } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
-import { SiBootstrap, SiMongodb, SiPostgresql } from 'react-icons/si';
+import { SiRedis, SiRabbitmq, SiDjango } from "react-icons/si";
+import { SiBootstrap, SiMongodb, SiPostgresql , SiTailwindcss} from 'react-icons/si';
 import { DiCss3, DiAngularSimple } from 'react-icons/di';
 import ExpTimeline from './exptimeline';
 import WorkExpTimeline from './educexp';
@@ -68,6 +69,13 @@ const Experience = ({ innerRef }) => {
                         <small className="text-light">Begineer</small>
                      </div>
                   </article>
+                  <article className='experience__details'>
+                     <SiTailwindcss className='experience__details-icon' />
+                     <div>
+                        <h4>Tailwind CSS</h4>
+                        <small className="text-light">Begineer</small>
+                     </div>
+                  </article>
                </div>
             </div>
             {/* End Of FrontEnd */}
@@ -79,6 +87,13 @@ const Experience = ({ innerRef }) => {
                      <FaNodeJs className='experience__details-icon' />
                      <div>
                         <h4>NodeJs</h4>
+                        <small className="text-light">Experienced</small>
+                     </div>
+                  </article>
+                  <article className='experience__details'>
+                     <SiDjango className='experience__details-icon' />
+                     <div>
+                        <h4>Django</h4>
                         <small className="text-light">Experienced</small>
                      </div>
                   </article>
@@ -115,6 +130,27 @@ const Experience = ({ innerRef }) => {
                         <div>
                            <h4>Docker</h4>
                            <small className="text-light">Begineer</small>
+                        </div>
+                     </article>
+                     <article className='experience__details'>
+                        <SiRedis className='experience__details-icon' />
+                        <div>
+                           <h4>Redis</h4>
+                           <small className="text-light">intermediate</small>
+                        </div>
+                     </article>
+                     <article className='experience__details'>
+                        <SiRabbitmq className='experience__details-icon' />
+                        <div>
+                           <h4>RabbitMQ</h4>
+                           <small className="text-light">intermediate</small>
+                        </div>
+                     </article>
+                     <article className='experience__details'>
+                        <FaAws className='experience__details-icon' />
+                        <div>
+                           <h4>AWS</h4>
+                           <small className="text-light">intermediate</small>
                         </div>
                      </article>
                   </div>

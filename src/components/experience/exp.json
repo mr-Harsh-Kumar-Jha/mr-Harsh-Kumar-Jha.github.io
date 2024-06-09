@@ -1,7 +1,23 @@
 [
    {
-      "jobTitle":"Frontend Engineer",
-      "tenure":"July 2023 - Present",
+      "jobTitle":"Software Developer Intern",
+      "tenure":"Sep 2023 - Jan 2024",
+      "logo":"https://uploads-ssl.webflow.com/634fa233f87e0b7cc0ede3ce/639c58efbde4545fdc34b036_Bynry%2032x32.png",
+      "comName":"Bynry",
+      "techStack":["AngularJs" , "ReactJs", "AWS", "DBT", "NodeJs" , "API" , "ExpressJs", "Docker"],
+      "location":"Pune"
+   },
+   {
+      "jobTitle":"Backend Developer Intern",
+      "tenure":"Sep 2023 - Jan 2024",
+      "logo":"https://uploads-ssl.webflow.com/634fa233f87e0b7cc0ede3ce/639c58efbde4545fdc34b036_Bynry%2032x32.png",
+      "comName":"Bynry",
+      "techStack":["AngularJs" , "NodeJs" , "API" , "ExpressJs", "Docker", "Redis", "AWS", "RabbitMQ"],
+      "location":"Pune"
+   },
+   {
+      "jobTitle":"Frontend Developer Intern",
+      "tenure":"July 2023 - Aug 2023",
       "logo":"https://uploads-ssl.webflow.com/634fa233f87e0b7cc0ede3ce/639c58efbde4545fdc34b036_Bynry%2032x32.png",
       "comName":"Bynry",
       "techStack":["AngularJs" , "NodeJs" , "API" , "ExpressJs", "Docker"],

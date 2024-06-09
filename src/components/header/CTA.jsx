@@ -7,7 +7,7 @@ const CTA = () => {
     <div className="cta">
       <a href={CV} download className='btn'>Download CV</a>
       <a href="#contact" className='btn btn-primary'>Let's Talk</a>
-      <a href="\" className='btn btn-secondary Blog'>Blog's</a>
+      <a href="https://medium.com/@jhaharsh878" className='btn btn-secondary Blog'>Blog's</a>
     </div>
   )
 }
