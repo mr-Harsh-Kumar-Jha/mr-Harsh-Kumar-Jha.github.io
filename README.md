@@ -1,7 +1,3 @@
-Here is the revised and more professional README content for the repository, including cloning methodologies:
-
----
-
 # [Personal Website of Harsh Kumar Jha](https://harshjha.vercel.app)
 
 ## Introduction
